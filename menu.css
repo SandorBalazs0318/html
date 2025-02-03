@@ -1,0 +1,47 @@
+.doboz {
+    margin: auto;
+    margin-top: 30px;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+#felso {
+    background-color: purple;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.kek{
+    background-color: cyan;
+    width: 90px;
+    height: 30px;
+    margin: 10px;
+}
+
+#elso{
+    margin-left: 20px;
+}
+
+#alma{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+ }
+
+#kozepso1{
+    background-color: yellow;
+    width: 70%;
+    height: 500px;
+}
+
+#kozepso2{
+    background-color: green;
+    width: 30%;
+    height: 500px;
+}
+
+
