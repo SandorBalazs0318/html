@@ -3,34 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Counter</title>
     <link rel="stylesheet" href="Counter.css">
-    <title>Document</title>
 </head>
 <body>
-    <div>
-        <div id="fejlec">
-            <p id="mycounter">My counter</p>
+    <div class="header">My counter</div>
+    <div class="container">
+        <div class="buttons">
+            <button class="btn">+</button>
+            <button class="btn">+</button>
         </div>
-        <div id="count">
-            <table>
-                <td>
-                    asd
-                </td>
-                <tr>
-                    <th>Counter value:</th>
-                </tr>
-                <tr>
-                    <th>100</th>
-                </tr>
-                <td>
-                    asd
-                </td>
-                <td>
-                    asd 
-                </td>
-            </table>
-        </div>  
+        <div class="counter">
+            <p>Counter value:</p>
+            <h1 id="counter">100</h1>
+        </div>
+        <div class="buttons">
+            <button class="btn">-</button>
+            <button class="btn">-</button>
+        </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
